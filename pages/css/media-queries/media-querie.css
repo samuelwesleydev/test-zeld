@@ -10,18 +10,18 @@
 
     .section__top{
         padding:40px 20px 0px 20px;
-        height: 80%;
+        height: 70%;
 
     
     }
     .section__bottom{
         padding-inline:20px;
-        height: 20%;
+        height: 30%;
     }
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 432px){
 
     .image-link-highlight img{
         margin-right: 0px;
@@ -36,7 +36,7 @@
 
     
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 345px) {
     
     ::-webkit-scrollbar {
         width: 2px; 
