@@ -7,7 +7,7 @@
 
 }
 
-.navigator ul li a img{
+.navigator ul li, .navigator ul li a img{
     animation: slideUp 1s ease-out;
     
 
