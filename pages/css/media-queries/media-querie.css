@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 613px){
+    .image-link-highlight {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .section__top{
+        padding:40px 20px 0px 20px;
+        height: 80%;
+
+    
+    }
+    .section__bottom{
+        padding-inline:20px;
+        height: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+
+    .image-link-highlight img{
+        margin-right: 0px;
+        width: 90%;
+        
+    }
+
+    .description-game p{
+        margin-bottom:0px ;
+        line-height: 1.9rem;
+    }
+
+    
+}
+@media screen and (max-width: 320px) {
+    
+    ::-webkit-scrollbar {
+        width: 2px; 
+    } 
+    ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #888; 
+        border-radius: 6px; 
+    }
+    body{
+        overflow: hidden ;
+    }
+
+    .section__top .description-game{
+        overflow-y: scroll;
+        border-radius: 10px 0px 0px 10px;
+
+    }
+
+
+    
+}

@@ -1,0 +1,50 @@
+
+.section__top .button-watch-trailer{
+    margin-top: 2.0rem;
+
+    transition: transform .2s ease-in-out;
+
+
+}
+.section__top .button-watch-trailer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    border-radius: 1.3rem;
+    padding: 8px 1px 8px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.section__top .button-watch-trailer a div{
+    width: 0px;
+    height: 0px;
+
+    border:solid 1.0rem rgb(255, 0, 0);
+    border-top-color:transparent;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+
+
+}
+
+/* HOVERED */
+
+.button-watch-trailer:hover{
+    transform: scale(1.05);
+    transition: transform .2s ease-in-out;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-height:573px), screen and (max-width:322px){
+    .section__top .button-watch-trailer{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}

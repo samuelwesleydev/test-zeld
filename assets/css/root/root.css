@@ -1,0 +1,24 @@
+@font-face {
+    font-family: font-zelda ;
+    src: url(../../font-zelda/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap'); */
+
+
+:root{
+    /* fonts size */
+    font-size: 62.5%;
+
+    /* fonts */
+    --font-theme-zelda:'font-zelda', sans-serif;
+    --font-Roboto:'Roboto', sans-serif;
+
+
+    /* colors */
+    --color-green:#30524a;
+    --color-gray:#595958;
+    --color-grayBlack:#272727;
+    --color-light-blue:#84A9BF;
+    --color-blue:#0087CC;
+    --color-gold:#bda66f;
+}

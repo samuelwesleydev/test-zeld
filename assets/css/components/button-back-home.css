@@ -1,0 +1,36 @@
+.img-back-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    width: 60px;
+    background: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    transition: width .3s ease-in-out;
+
+
+
+}
+
+.img-back-home img{
+    width: 30px;
+
+    transition: width .3s ease-in-out;
+
+}
+
+
+
+/* HOVERED */
+
+.img-back-home:hover{
+    transition: width .3s ease-in-out;
+}
+.img-back-home:hover img{
+    width: 50px;
+    transition: width .3s ease-in-out;
+}

@@ -1,0 +1,58 @@
+@import url(../../css/global-style.css);
+
+
+
+body::before{
+    content: "";
+    width:100vw;
+    height: 100vh;
+
+    background-image:url(../../../assets/images/img-games/TOTK/bg-circle-totk.avif);
+    background-repeat: repeat;
+    
+    position: absolute;
+    
+}
+body::after{
+    content: "";
+    width:100vw;
+    height: 100vh;
+
+
+    position: absolute;
+    top: 0;
+}
+.image-link-highlight {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+}
+.image-link-highlight img{
+    margin-right: 50px;
+    width: 480px;
+
+    z-index: -1;
+    
+
+}
+.more-information__release{
+    background-color: var(--color-gold);
+}
+
+.section__top .button-watch-trailer a{
+    background-color: var(--color-gold);
+
+}
+
+
+.navigator ul li a{
+    border-color: var(--color-gold);
+}

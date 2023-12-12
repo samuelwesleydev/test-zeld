@@ -1,0 +1,94 @@
+
+.description-game{
+    animation: slideLeftToRight 1s ease-in-out;
+}
+.button-watch-trailer{
+    animation: slideLeftToRight 1s ease-in-out;
+
+}
+
+.navigator ul li a img{
+    animation: slideUp 1s ease-out;
+    
+
+}
+
+.img-back-home{
+    animation: slideLeftToRight 1s ease-in-out;
+
+}
+
+.image-link-highlight{
+
+    animation: slideRightToLeft 1s ease-in-out;
+
+
+}
+.image-link-highlight img{
+    animation: moveUpDown 4s infinite ease-in-out;
+
+}
+
+
+
+
+/* KEYFRAMES ANIMATION */
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideLeftToRight {
+    0%{
+      margin-left: 0px;
+      opacity: 0.1;
+
+    }
+    100%{
+        margin-left: 100px;
+        opacity: 1;
+    }
+  }
+
+  @keyframes slideLeftToRight {
+    0%{
+        transform: translateX(-100px);
+      opacity: 0.1;
+
+    }
+    100%{
+        transform: translateX(0px);
+
+        opacity: 1;
+    }
+  }
+  @keyframes slideRightToLeft{
+    0%{
+        transform: translateX(100px);
+      opacity: 0.1;
+
+    }
+    100%{
+        transform: translateX(0px);
+
+        opacity: 1;
+    }
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+
